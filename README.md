@@ -12,4 +12,4 @@ Libraries : <br />
  Start App.js:
   * Create a TaskTracker table if it doesn't exist.
   * Route GET, POST, PUT, DELETE requests to router.
-  * App runs in localhost(9000)
+  * App runs on localhost(9000).
