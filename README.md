@@ -13,3 +13,9 @@ Libraries : <br />
   * Create a TaskTracker table if it doesn't exist.
   * Route GET, POST, PUT, DELETE requests to router.
   * App runs on localhost(9000).
+
+ Routes:
+  * getTask.js - Route GET request to Controller and returns tasks in response.
+  * insertTask.js - Route the POST request to controller and insert the task into TaskTracker table.
+  * updateTask.js - Route the PUT request to controller and update the task for given taskId in TaskTracker table.
+  * deleteTask.js - Route the DELETE request to controller and delete the task of taskID from taskTracker table.
