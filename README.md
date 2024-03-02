@@ -15,10 +15,17 @@ Libraries : Stored in package.json <br />
   * App runs on localhost(9000).
 
  Routes:
-  * getTask.js - Route GET request to Controller and returns tasks in response.
-  * insertTask.js - Route the POST request to controller and insert the task into TaskTracker table.
-  * updateTask.js - Route the PUT request to controller and update the task for given taskId in TaskTracker table.
-  * deleteTask.js - Route the DELETE request to controller and delete the task of taskID from taskTracker table.
+  * getTask.js (/getTasks) - Route GET request to Controller and returns tasks in response.
+      * URL: http://localhost:9000/getTasks
+      * Response: List of all tasks in JSON. 
+  * insertTask.js (/insertTasks) - Route the POST request to controller.
+      * URL: http://localhost:9000/insertTasks
+      * Request body: JSON
+  * updateTask.js (/updateTask)- Route the PUT request to controller.
+      * URL: http://localhost:9000/updateTask/:taskID
+      * Request body: JSON
+  * deleteTask.js (/updateTask) - Route the DELETE request to controller.
+       * URL: http://localhost:9000/deleteTask/:taskID
   * Handled input validation while receiving request using express-validator.
 
 Controller:
