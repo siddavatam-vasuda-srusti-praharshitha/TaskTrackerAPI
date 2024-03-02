@@ -1,8 +1,8 @@
 # TaskTrackerAPI
-****Backed API for updating Database****
-Backend: Node.js with Express.js
-Databae: Sqlite3
-IDE: Visual Studio
+****Backed API for updating Database****\n
+Backend: Node.js with Express.js\n
+Databae: Sqlite3\n
+IDE: Visual Studio\n
 Libraries :
   **. **nodemon :
   **. **body-parser:
