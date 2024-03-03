@@ -36,7 +36,7 @@ Model:
  * Fetches queries from utils/config.json and stores data in database (sqlite.db).
  * Single db connection object is being used in database/dbconn.js for sqlite.db.
 
-****Frontend***
+****Frontend****
  <br />
 Frontend: ReactJS, Javascript <br />
 IDE: Visual Studio <br />
@@ -60,3 +60,7 @@ Components:
      * Task.js - Represents individual task
         * TaskView.js - displays a modal window with task details and provides options to update the status or delete a task. It uses Redux for state management and makes    
                         HTTP requests to a local server for updating and deleting tasks.
+
+ Redux:
+ * Store.js - Configuration for Redux store.
+ * TaskSlice.js - Uses the Redux Toolkit to manage application state. Specifically, it defines a Redux slice for managing task-related data and operations.
