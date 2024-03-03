@@ -2,7 +2,7 @@
 ****Backend API for updating Database****
  <br />
 Backend: Node.js with Express.js <br />
-Databae: Sqlite3 <br />
+Database: Sqlite3 <br />
 IDE: Visual Studio <br />
 Libraries : Stored in package.json <br />
   * nodemon - Automatic server restarting.  <br />
@@ -12,7 +12,7 @@ Libraries : Stored in package.json <br />
  Start App.js:
   * Create a TaskTracker table if it doesn't exist.
   * Route GET, POST, PUT, DELETE requests to router.
-  * App runs on localhost(9000).
+  * App runs on localhost (9000).
 
  Routes:
   * getTask.js (/getTasks) - Route GET request to Controller and returns tasks in response.
@@ -29,7 +29,7 @@ Libraries : Stored in package.json <br />
   * Handled input validation while receiving request using express-validator.
 
 Controller:
- * Route the request to model and fetches response in callback from model(result from database).
+ * Route the request to model and fetches response in callback from model (result from database).
 
 Model:
  * Implemented methods for all the routes and returns response in callback to controller, by fetching data from TaskTracker table(taskModel.js).
@@ -51,11 +51,11 @@ Libraries : Stored in package.json <br />
 
  App.js:
  * Fetches tasks(http://localhost:5000/getTasks).
- * Renders components NotificationContainer, CreateTask, FilterTasks, Tasks.
+ * Renders components CreateTask, FilterTasks, Tasks.
 
 Components:
- * CreateTask.js - Add new tasks(Add task button)
- * FilterTasks.js - Filters the tasks using checkbox(To be Started, In Progress, Completed).
+ * CreateTask.js - Add new tasks (Add task button)
+ * FilterTasks.js - Filters the tasks using checkbox (To be Started, In Progress, Completed).
  * Tasks.js - Renders list of tasks
      * Task.js - Represents individual task
         * TaskView.js - displays a modal window with task details and provides options to update the status or delete a task. It uses Redux for state management and makes  HTTP requests to a local server for updating and deleting tasks.
