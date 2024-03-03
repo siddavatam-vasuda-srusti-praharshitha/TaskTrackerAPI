@@ -48,4 +48,15 @@ Libraries : Stored in package.json <br />
   * @react-md/divider. <br />
   * react-scripts. <br/>
   * react-dom. <br/>
-  
+
+ App.js:
+ * Fetches tasks(http://localhost:5000/getTasks).
+ * Renders components NotificationContainer, CreateTask, FilterTasks, Tasks.
+
+Components:
+ * CreateTask.js - Add new tasks(Add task button)
+ * FilterTasks.js - Filters the tasks using checkbox(To be Started, In Proress, Completed).
+ * Tasks.js - Renders list of tasks
+     * Task.js - Represents individual task
+        * TaskView.js - displays a modal window with task details and provides options to update the status or delete a task. It uses Redux for state management and makes    
+                        HTTP requests to a local server for updating and deleting tasks.
