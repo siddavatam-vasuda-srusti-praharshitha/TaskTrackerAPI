@@ -55,12 +55,11 @@ Libraries : Stored in package.json <br />
 
 Components:
  * CreateTask.js - Add new tasks(Add task button)
- * FilterTasks.js - Filters the tasks using checkbox(To be Started, In Proress, Completed).
+ * FilterTasks.js - Filters the tasks using checkbox(To be Started, In Progress, Completed).
  * Tasks.js - Renders list of tasks
      * Task.js - Represents individual task
-        * TaskView.js - displays a modal window with task details and provides options to update the status or delete a task. It uses Redux for state management and makes    
-                        HTTP requests to a local server for updating and deleting tasks.
+        * TaskView.js - displays a modal window with task details and provides options to update the status or delete a task. It uses Redux for state management and makes  HTTP requests to a local server for updating and deleting tasks.
 
  Redux:
  * Store.js - Configuration for Redux store.
- * TaskSlice.js - Uses the Redux Toolkit to manage application state. Specifically, it defines a Redux slice for managing task-related data and operations.
+ * TaskSlice.js - Uses the Redux Toolkit to manage application state. Specifically, it defines a Redux slice for managing task-related data and operations i.e., taskList, filterStatus, addTask, updateTask, updateFilterStatus.
