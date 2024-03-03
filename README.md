@@ -1,5 +1,5 @@
 # TaskTrackerAPI
-****Backed API for updating Database****
+****Backend API for updating Database****
  <br />
 Backend: Node.js with Express.js <br />
 Databae: Sqlite3 <br />
@@ -36,3 +36,16 @@ Model:
  * Fetches queries from utils/config.json and stores data in database (sqlite.db).
  * Single db connection object is being used in database/dbconn.js for sqlite.db.
 
+****Frontend***
+ <br />
+Frontend: ReactJS, Javascript <br />
+IDE: Visual Studio <br />
+Libraries : Stored in package.json <br />
+  * @reduxjs/toolkit.  <br />
+  * react. <br />
+  * react-dropdown. <br />
+  * react-notifications. <br />
+  * @react-md/divider. <br />
+  * react-scripts. <br/>
+  * react-dom. <br/>
+  
